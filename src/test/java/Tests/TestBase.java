@@ -34,8 +34,6 @@ public class TestBase {
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-//                .addArguments("--incognito");
-        // .addArguments("--headless");
         options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();

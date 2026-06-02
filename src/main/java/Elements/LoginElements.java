@@ -4,11 +4,8 @@ import Pages.PageBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-/**
+/*
  * LoginElements — all locators for the Login page.
- * /
- * TODO: Replace the example locators below with the real locators
- *       from your new company's application.
  */
 public class LoginElements extends PageBase {
     // Constructor
