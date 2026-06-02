@@ -1,0 +1,20 @@
+# Maven
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+allure-results/
+allure-report/
+TestData/ScreenShots/**/*.png
+
+# Secrets — never commit real credentials
+# TestData/Data/login.json   # consider adding this if creds are sensitive
