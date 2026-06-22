@@ -15,6 +15,7 @@ public class LoginPage extends LoginElements {
         super(driver);
     }
 
+
     @Step("Set Email")
     public LoginPage setEmail(String email) {
         setText(emailField, email);

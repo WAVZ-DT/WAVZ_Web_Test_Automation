@@ -15,7 +15,7 @@ import org.testng.annotations.*;
 
 import java.util.ArrayList;
 
-
+@Listeners({Utils.ListenerTest.class})
 public class TestBase {
     public WebDriver driver;
     public LoginPage loginPage;
@@ -47,7 +47,7 @@ public class TestBase {
 
     @AfterTest
     public void tearDown() {
-//        driver.quit();
+ //        driver.quit();
     }
 
     @SneakyThrows
